@@ -1,4 +1,4 @@
-import Sidebar from "./components/Sidebar";
+import AppLayout from "./pages/AppLayout";
 export default function App() {
-  return <Sidebar />;
+  return <AppLayout />;
 }
