@@ -1,10 +1,13 @@
-import Navbar from "../components/Navbar";
+import { Outlet } from "react-router-dom";
 import Sidebar from "../components/Sidebar";
+import MainSection from "../components/MainSection";
 
 const AppLayout = () => (
   <div className="flex h-screen">
     <Sidebar />
-    <Navbar />
+    <MainSection>
+      <Outlet />
+    </MainSection>
   </div>
 );
 
